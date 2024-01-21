@@ -1,0 +1,27 @@
+{
+   
+    "name": "Introduction to JavaScript",
+    "instructor": "Sohn Doe",
+    "description": "Learn the basics of JavaScript development and build your first mobile app.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to JavaScript",
+        "content": "Overview of JavaScript, setting up your development environment."
+      },
+      {
+        "week": 2,
+        "topic": "Building Your First App",
+        "content": "Creating a simple mobile app using JavaScript components."
+      }
+     
+    ]
+  
+  }
+  
