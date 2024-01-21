@@ -4,7 +4,7 @@ const mongoose=require('mongoose')
 var cors = require('cors')
 const path = require('path');
 const app = express()
-// const MarioRoute= require('./routes/MarioRoute')
+
 app.use(cors())
 const userRoute= require('./routes/userRoute')
 const coursesRoute = require('./routes/courseRoute')
@@ -13,7 +13,7 @@ const URL= process.env.URL
 app.use(express.json())
 mongoose.connect(URL).then(console.log('connection successfull'))
 
-// app.use('/api', MarioRoute)
+
 app.use('/api/auth', userRoute)
 app.use('/api', coursesRoute)
 
